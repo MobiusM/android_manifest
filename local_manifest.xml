@@ -6,15 +6,19 @@
   	<remote name="tm" fetch="https://github.com/TheMuppets" revison="cm-13.0"/>
 
 
-
+ <!--device-->
+  <project path="device/lge/g2m" name="android_device_lge_g2m" remote="cyan"/>
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cyan"/>
+  <project path="device/lge/msm8226-common" name="android_device_lge_msm8226-common" remote="cyan"/>
+  
+ <!--vendor-->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm"/>
 
+ <!--kernel-->
   <project path="kernel/lge/msm8226" name="android_kernel_lge_msm8226" remote="cyan"/>
+  
+ <!--misc-->
+ <project path="external/sony" name="android_external_sony_boringssl-compat" remote="cyan"/>
 
-  <project path="device/lge/g2m" name="android_device_lge_g2m" remote="cyan"/>
-
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="cyan"/>
-
-  <project path="device/lge/msm8226-common" name="android_device_lge_msm8226-common" remote="cyan"/>
-
+ 
 </manifest>
