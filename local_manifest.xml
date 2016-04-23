@@ -17,7 +17,7 @@
  <!--kernel-->
   <project path="kernel/lge/msm8226" name="android_kernel_lge_msm8226" remote="cyan"/>
   
- <!--misc-->
+ <!--needed misc-->
  <project path="external/sony" name="android_external_sony_boringssl-compat" remote="cyan"/>
 
  
