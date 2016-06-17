@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Additional remotes -->
+		<remote name="bitbucket" fetch="https://bitbucket.org/" />
+  <!-- /Additional remotes -->
+	
+	
+	
   <!--g2m-->
   <project name="CyanogenMod/android_device_lge_g2m" path="device/lge/g2m" remote="github" />
   <project name="MobiusM/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="github" />
