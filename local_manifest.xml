@@ -7,7 +7,7 @@
 	
 	
   <!-- g2m -->
-  <project name="CM-LG-MSM8226/android_device_lge_g2m" path="device/lge/g2m" remote="github" revision="cm-14.0"/>
+  <project name="LineageOS/android_device_lge_g2m" path="device/lge/g2m" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="cm-14.1"/>
