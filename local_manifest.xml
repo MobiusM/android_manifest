@@ -28,7 +28,7 @@
 	
 	<!-- OTA -->
   <project name="MobiusM/OTA" path="OTA" remote="github" revision="master"/>
-    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="OTA/ota_conf" dest="ota_conf" />
 	
 	  
 	
