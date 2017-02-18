@@ -2,42 +2,48 @@
 <manifest>
 
   <!-- Additional remotes -->
-		<remote name="bitbucket" fetch="https://bitbucket.org/" />
+	<!--	<remote name="bitbucket" fetch="https://bitbucket.org/" /> -->
   <!-- /Additional remotes -->
 	
 	
   <!-- g2m -->
   <project name="LineageOS/android_device_lge_g2m" path="device/lge/g2m" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="cm-14.1"/>
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1"/>
+
   
   <!-- jagnm(D722) -->
   <project name="LineageOS/android_device_lge_jagnm" path="device/lge/jagnm" remote="github" revision="cm-14.1"/>
   
   <!-- jag3gds(D724) /> -->
   <project name="LineageOS/android_device_lge_jag3gds" path="device/lge/jag3gds" remote="github" revision="cm-14.1"/>
+	
+  <!-- Common stuff -->
+  <project name="LineageOS/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" revision="cm-14.1"/>
+	
+	
+	
+	
+	
   
+  <!--
   
-  
-  
-  <!-- Toolchain -->
   <project name="UBERTC/aarch64-linux-android-4.9-kernel" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" remote="bitbucket" revision="master" />
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="UBERTC/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bitbucket" revision="master" />
 
-	<!-- UberTC 6 -->
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project name="UBERTC/arm-eabi-6.0" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master" />
 
-	<!-- UberTC 5.3 -->
+
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="UBERTC/arm-linux-androideabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
-  
+  -->
 </manifest>
