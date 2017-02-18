@@ -13,7 +13,7 @@
   <!-- jagnm(D722) -->
   <project name="LineageOS/android_device_lge_jagnm" path="device/lge/jagnm" remote="github" revision="cm-14.1"/>
   
-  <!-- jag3gds(D724) /> -->
+  <!-- jag3gds(D724) -->
   <project name="LineageOS/android_device_lge_jag3gds" path="device/lge/jag3gds" remote="github" revision="cm-14.1"/>
 	
   <!-- Common stuff -->
@@ -26,7 +26,11 @@
   <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" revision="cm-14.1"/>
 	
 	
+	<!-- OTA -->
+  <project name="MobiusM/OTA" path="OTA" remote="github" revision="master"/>
+    <copyfile src="core/root.mk" dest="Makefile" />
 	
+	  
 	
 	
   
