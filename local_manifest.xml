@@ -6,30 +6,33 @@
   <!-- /Additional remotes -->
 	
 	
-  <!-- g2m -->
-  <project name="LineageOS/android_device_lge_g2m" path="device/lge/g2m" remote="github" revision="cm-14.1"/>
+  <!-- g2m
+  <project name="LineageOS/android_device_lge_g2m" path="device/lge/g2m" remote="github" revision="cm-14.1"/> -->
 
   
-  <!-- jagnm(D722) -->
-  <project name="LineageOS/android_device_lge_jagnm" path="device/lge/jagnm" remote="github" revision="cm-14.1"/>
+  <!-- jagnm(D722)
+  <project name="LineageOS/android_device_lge_jagnm" path="device/lge/jagnm" remote="github" revision="cm-14.1"/> -->
   
-  <!-- jag3gds(D724) -->
-  <project name="LineageOS/android_device_lge_jag3gds" path="device/lge/jag3gds" remote="github" revision="cm-14.1"/>
+  <!-- jag3gds(D724)
+  <project name="LineageOS/android_device_lge_jag3gds" path="device/lge/jag3gds" remote="github" revision="cm-14.1"/> -->
+
+  <!-- w7 -->
+   <project name="MobiusM/android_device_lge_w7" path="device/lge/w7" remote="github" revision="lineage-15.0"/> -->
 	
   <!-- Common stuff -->
-  <project name="LineageOS/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="cm-14.1"/>
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1"/>
+  <project name="MobiusM/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0"/>
+  <project name="MobiusM/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="github" revision="lineage-15.0"/>
+  <project name="MobiusM/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0"/>
 	
 	
-	<!-- OTA -->
+	<!-- OTA
   <project name="MobiusM/OTA" path="OTA" remote="github" revision="master">
     <copyfile src="ota_conf" dest="ota_conf" />
-  </project>	
+  </project> -->
 	  
 	
 	
